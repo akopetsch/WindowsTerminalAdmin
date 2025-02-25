@@ -13,8 +13,8 @@ Additional notes about the script such as author, version, or limitations.
 #>
 
 . .\AppFunctions.ps1
-. .\Utils\FileFunctions.ps1
-. .\Utils\RegistryFunctions.ps1
+. .\FileFunctions.ps1
+. .\RegistryFunctions.ps1
 
 function Uninstall-AppDirectory {
     Remove-Directory -Path "$(Get-AppDirectoryPath)"

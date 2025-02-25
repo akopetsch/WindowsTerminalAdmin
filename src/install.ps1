@@ -27,8 +27,8 @@ a JavaScript one-liner intended to do the same.
 #>
 
 . .\AppFunctions.ps1
-. .\Utils\FileFunctions.ps1
-. .\Utils\RegistryFunctions.ps1
+. .\FileFunctions.ps1
+. .\RegistryFunctions.ps1
 
 function Install-AppDirectory {
     Copy-FileToDirectory `
