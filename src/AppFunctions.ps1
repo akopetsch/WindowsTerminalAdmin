@@ -17,7 +17,7 @@ function Get-ContextMenuHandlerName {
     <#
     The prefix '0.' is used to ensure that the menu entry is displayed at the top. 
     It still displays right below 'Open in Terminal' which is not configured as 
-    a regular context menu for (background) directories.
+    a regular context menu entry for (background) directories.
     #>
     return "0.WindowsTerminalAdmin"
 }
